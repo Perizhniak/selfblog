@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+	body {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.blog {
+		grid-template-columns: 20% 50% 30%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.blog {
+		grid-template-columns: 25% 75%;
+		width: 100%;
+		max-width: none;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.blog {
+		grid-template-columns: 100%;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.blog-menu {
+		font-size: 1.6vw;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.blog-menu.mention {
+		font-size: 1.4vw;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.blog-menu.subscribe {
+		font-size: 1.4vw;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.blog .is-menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.blog-big__title {
+		font-size: 120px;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.blog-big__title {
+		font-size: 9vw;
+		letter-spacing: -2px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.blog-big__title {
+		font-size: 36px;
+		margin-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.page-number {
+		font-size: 5vw;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.small-title {
+		font-size: 14px;
+		position: absolute;
+		top: 10px;
+		right: 24px;
+		border-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.blog-header-container {
+		border-right: 0;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.blog-right-title-container {
+		margin-top: 88px;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.blog-right-title-container {
+		margin-top: 6vw;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.blog-right-title-container {
+		margin-top: 5vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.right-blog {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.right-blog .blog-menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.circle-title {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.blog-is-sticky {
+		display: none;
+	}
+}

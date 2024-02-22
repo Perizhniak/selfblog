@@ -131,3 +131,36 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 560px) {
+	.page-number p {
+		font-size: 12px;
+		text-align: left;
+		font-weight: lighter;
+		;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.page-number p {
+		font-size: 12px;
+		text-align: left;
+		font-weight: lighter;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.page-number p {
+		font-size: 12px;
+		text-align: left;
+		font-weight: lighter;
+	}
+}
+
+@media screen and (max-width: 1264px) {
+	.page-number p {
+		font-size: 12px;
+		text-align: left;
+		font-weight: lighter;
+	}
+}

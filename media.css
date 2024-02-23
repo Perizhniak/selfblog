@@ -164,3 +164,9 @@
 		font-weight: lighter;
 	}
 }
+
+@media screen and (max-width: 560px) {
+	.blog-menu.small-title.date {
+		display: none;
+	}
+}

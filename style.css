@@ -143,7 +143,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	height: 100%;
+	/* height: 100%; */
 	font-size: 12px;
 	text-align: left;
 	font-weight: lighter;
@@ -155,7 +155,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 
 .page-number p {
 	display: flex;
@@ -190,6 +189,7 @@ body {
 .blog-article p {
 	line-height: 1.5;
 	margin: 14px 0;
+	margin-left: 5px;
 }
 
 .blog-article a {
@@ -364,20 +364,11 @@ marquee span:before {
 	font-family: "Space Grotesk", sans-serif;
 }
 
-/* .circle-subtitle {
-	max-width: 30ch;
-	font-size: 14px;
-	line-height: 1.3;
-	margin-bottom: 16px;
-} */
-
-
 .menu:hover {
 	transform: scale(1.1);
 	transition: 0.3s;
 	padding-left: 10px;
 }
-
 
 .article:hover {
 	background-color: #cfcdcd;
@@ -387,7 +378,7 @@ marquee span:before {
 }
 
 .author img:hover {
-	transform: scale(1.1);
+	transform: scale(1.02);
 	transition: all ease 0.3s;
 }
 
@@ -395,4 +386,70 @@ marquee span:before {
 	background-color: #cfcdcd;
 	transition: all ease 0.3s;
 	cursor: pointer;
+}
+
+.photos {
+	overflow: auto;
+	height: calc(100% + 60px);
+}
+
+.photos .rounded {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.photos .rounded:before {
+	content: "";
+	border-radius: 50%;
+	width: 9px;
+	height: 9px;
+	background-color: #161419;
+	margin-right: 6px;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	max-width: 90%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 9999;
+	overflow: auto;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.popup img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.popup .close {
+	position: absolute;
+	top: 5px;
+	right: 3px;
+	color: red;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.popup .close:hover {
+	color: #ccc;
+}
+
+.menu img {
+	display: none;
+}
+
+.menu:hover img {
+	display: block;
+	width: 25px;
+	margin-right: 3px;
+	filter: grayscale(1);
 }
